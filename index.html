@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Rubinho Landing Page Kit — template open-source feito pelo Rubinho." />
+  <title>Rubinho Landing Page Kit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="brand" href="#home" aria-label="Página inicial">
+        <span class="brand-mark">RB</span>
+        <span class="brand-text" data-brand-name>Rubinho Kit</span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" data-nav-links>
+        <a href="#services">Serviços</a>
+        <a href="#gallery">Galeria</a>
+        <a href="#reviews">Avaliações</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contacto</a>
+      </div>
+
+      <div class="nav-actions">
+        <select id="demoSelector" aria-label="Escolher demo">
+          <option value="cars">Stand automóvel</option>
+          <option value="food">Café / Restaurante</option>
+          <option value="fashion">Loja de roupa</option>
+        </select>
+        <button class="theme-toggle" type="button" aria-label="Alternar tema">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow" data-eyebrow>Template para negócios locais</span>
+          <h1 data-hero-title>Cria uma presença online moderna para o teu negócio.</h1>
+          <p data-hero-description>
+            Landing page rápida, elegante e preparada para converter visitantes em clientes.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" data-primary-cta href="#contact">Pedir orçamento</a>
+            <a class="btn btn-secondary" data-secondary-cta href="#gallery">Ver exemplos</a>
+          </div>
+          <div class="hero-stats" aria-label="Estatísticas">
+            <div><strong data-stat-one>+120</strong><span>clientes</span></div>
+            <div><strong data-stat-two>4.9★</strong><span>avaliação</span></div>
+            <div><strong data-stat-three>24h</strong><span>resposta</span></div>
+          </div>
+        </div>
+
+        <div class="hero-card reveal delay-1">
+          <div class="visual-card">
+            <div class="visual-topline"></div>
+            <div class="visual-image" data-visual-icon>🚗</div>
+            <div class="visual-content">
+              <h2 data-card-title>Stock premium</h2>
+              <p data-card-text>Viaturas selecionadas, financiamento e retoma.</p>
+              <div class="mini-list">
+                <span data-card-chip-one>Garantia incluída</span>
+                <span data-card-chip-two>Financiamento</span>
+                <span data-card-chip-three>Entrega rápida</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="logos section-muted">
+      <div class="container logo-row">
+        <span>Responsive</span>
+        <span>Open-source</span>
+        <span>SEO-ready</span>
+        <span>Dark mode</span>
+        <span>WhatsApp CTA</span>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">O que inclui</span>
+          <h2 data-services-title>Secções essenciais para vender melhor.</h2>
+          <p data-services-description>Personaliza textos, cores e conteúdo em poucos minutos.</p>
+        </div>
+        <div class="cards-grid" data-services-grid></div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section section-muted">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Galeria</span>
+          <h2 data-gallery-title>Mostra o melhor do teu negócio.</h2>
+        </div>
+        <div class="gallery-grid" data-gallery-grid></div>
+      </div>
+    </section>
+
+    <section class="section split-section">
+      <div class="container split-grid">
+        <div class="split-copy reveal">
+          <span class="eyebrow">Conversão</span>
+          <h2 data-feature-title>Transforma visitas em contactos reais.</h2>
+          <p data-feature-description>Inclui chamadas para ação claras, formulário simples e botão de WhatsApp sempre visível.</p>
+          <ul class="check-list">
+            <li>Carregamento rápido e estrutura limpa</li>
+            <li>Design adaptado a telemóvel</li>
+            <li>Fácil de editar para qualquer nicho</li>
+          </ul>
+        </div>
+        <div class="metric-panel reveal delay-1">
+          <div class="metric-large" data-big-metric>+38%</div>
+          <p data-metric-text>mais pedidos de contacto com CTAs claros e formulário direto.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="section section-muted">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Prova social</span>
+          <h2>O que os clientes dizem</h2>
+        </div>
+        <div class="testimonials-grid" data-testimonials-grid></div>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container faq-container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Perguntas frequentes</span>
+          <h2>Dúvidas comuns</h2>
+        </div>
+        <div class="faq-list" data-faq-list></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <span class="eyebrow">Contacto</span>
+          <h2 data-contact-title>Pronto para começar?</h2>
+          <p data-contact-description>Envia uma mensagem e recebe uma resposta rápida.</p>
+          <div class="contact-details">
+            <a data-whatsapp-link href="https://wa.me/351900000000" target="_blank" rel="noreferrer">WhatsApp: +351 900 000 000</a>
+            <a href="mailto:contacto@exemplo.pt">contacto@exemplo.pt</a>
+            <span>Portugal</span>
+          </div>
+        </div>
+
+        <form class="contact-form reveal delay-1">
+          <label>
+            Nome
+            <input type="text" name="name" placeholder="O teu nome" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="email@exemplo.pt" required />
+          </label>
+          <label>
+            Mensagem
+            <textarea name="message" rows="5" placeholder="Como podemos ajudar?" required></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Enviar mensagem</button>
+          <p class="form-note">Demo: o formulário não envia dados. Liga-o ao Formspree, Netlify Forms ou backend próprio.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <a class="floating-whatsapp" data-floating-whatsapp href="https://wa.me/351900000000" target="_blank" rel="noreferrer" aria-label="Falar pelo WhatsApp">✆</a>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> <span data-footer-brand>LocalBiz</span>. Template open-source.</p>
+      <a href="#home">Voltar ao topo</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

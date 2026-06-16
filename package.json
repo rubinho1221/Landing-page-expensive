@@ -1,0 +1,24 @@
+{
+  "name": "rubinho-landing-page-kit",
+  "version": "1.0.0",
+  "description": "Open-source landing page kit feito pelo Rubinho.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "rubinho",
+    "landing-page",
+    "html",
+    "css",
+    "javascript",
+    "template",
+    "open-source"
+  ],
+  "author": "Rubinho",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "latest"
+  }
+}
